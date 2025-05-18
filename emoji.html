@@ -1,0 +1,10 @@
+<button onclick="gen()">🎰 Spin</button>
+<p id="e">😶</p>
+
+<script>
+const emojis = ["😂", "🥺", "🔥", "🌈", "🤖", "🦄", "💯", "🧠"];
+function gen() {
+  document.getElementById("e").textContent =
+    emojis[Math.floor(Math.random() * emojis.length)];
+}
+</script>
