@@ -1,0 +1,9 @@
+<body></body>
+<script>
+const colors = ["#f00", "#0f0", "#00f", "#ff0", "#0ff", "#f0f"];
+let i = 0;
+setInterval(() => {
+  document.body.style.background = colors[i % colors.length];
+  i++;
+}, 2000);
+</script>
